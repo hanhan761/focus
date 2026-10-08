@@ -1,0 +1,6 @@
+interface:
+  display_name: "聚焦"
+  short_description: "把跑偏的长程任务恢复成可验证目标、主工作流和可接续的检查点"
+  default_prompt: "使用 $focus 聚焦当前任务：诊断失焦原因，列出指标和工作流，保存恢复点并继续已授权工作。"
+policy:
+  allow_implicit_invocation: true

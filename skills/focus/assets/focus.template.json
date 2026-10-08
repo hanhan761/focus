@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "task_id": "example-task",
+  "project_root": "/absolute/project/path",
+  "updated_at": "2026-10-08T00:00:00+00:00",
+  "status": "active",
+  "plan_ref": "",
+  "objective": "填写用户要的可验证结果",
+  "problem": "填写当前失焦现象与瓶颈",
+  "instructions": [
+    {
+      "source": "当前用户要求或适用的 AGENTS.md 路径",
+      "scope": "当前任务或适用目录",
+      "rule": "填写仍有效的约束"
+    }
+  ],
+  "conflicts": [],
+  "metrics": [
+    {
+      "id": "M1",
+      "name": "填写结果指标",
+      "baseline": "unknown",
+      "target": "填写可判定目标与单位",
+      "current": "unknown",
+      "check": "填写验证方法、输入与预期结果",
+      "status": "pending",
+      "evidence": []
+    }
+  ],
+  "workflow": [
+    {
+      "id": "S1",
+      "action": "填写当前最小验证动作",
+      "metric_ids": [
+        "M1"
+      ],
+      "status": "doing",
+      "output": "填写该动作应产生的产物",
+      "check": "填写验证动作与预期结果"
+    }
+  ],
+  "cycles": [],
+  "checkpoint": {
+    "last_verified_action": "尚无已验证动作",
+    "artifacts": [],
+    "next_action": "填写下一步动作与对应指标 M1"
+  },
+  "decisions": [],
+  "parking": []
+}
